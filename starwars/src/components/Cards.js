@@ -8,6 +8,10 @@ const Container = styled.div`
   margin-bottom: 20px;
   border: black solid 1px;
 
+  &:hover{
+    border: none;
+
+  }
 `;
 
 export default function Character({ info }) {
